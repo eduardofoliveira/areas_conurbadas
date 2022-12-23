@@ -1,0 +1,29 @@
+-----------------------------------------------------------
+ANATEL - AGENCIA NACIONAL DE TELECOMUNICACOES
+LAY-OUT DO ARQUIVO CE_F_HHMMSS.TXT
+-----------------------------------------------------------
+ID NOME DO CAMPO                       TIPO TAMANHO
+-- ----------------------------------  ---- -------
+01 Sigla UF                            char 02
+02 Sigla CNL                           char 04
+03 Codigo CNL                          char 05
+04 Nome da Localidade                  char 50
+05 Nome do Municipio                   char 50
+06 Cod. da Area Tarifacao              char 05
+07 Prefixo                             char 07
+08 Prestadora                          char 30
+09 Num. da Faixa Inicial               char 04
+10 Num. da Faixa Final                 char 04
+11 Latitude                            char 08 (*)
+12 Hemisferio                          char 05
+13 Longitude                           char 08 (*)
+14 Sigla CNL da Área Local             char 04
+
+OBSERVAÇÕES:                                               
+1) Os campos marcados com (*), Latitude e Longitude foram
+   alterados para o formato GGMMSSCC, 
+   onde:
+   GG = Grau,
+   MM = Minuto,
+   SS = Segundo e
+   CC = Centésimos de Segundo
